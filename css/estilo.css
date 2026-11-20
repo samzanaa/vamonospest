@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+}
+header{
+    background-color: #1F4E18;
+    text-align: center;
+    padding: 20px 0;
+}
+nav a{
+    display: inline-block;
+    text-decoration: underline;
+    color: #FFBD59;
+    margin: 0 30px;
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color: olive
+}
+.encabezado-img{
+    background-image: url(vamonostpest2.png);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado-img p{
+    font-size: 20px;
+    text-align: center;
+}
+.encabezado-img h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.encabezado-img2{
+    background-image: url(vamonospest3.png);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado-img2 p{
+    font-size: 20px;
+    text-align: center;
+}
+.encabezado-img2 h1{
+    font-size: 50px;
+    padding: 20px;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #1F4E18;
+    color: #FFBD59;
+    border-bottom: 1px solid #1F4E18;
+}
+section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+table {
+    margin: 0 auto;
+    border-spacing: 15px;
+}
+table img {
+    width: 200px;°°
+    height: 150px;
+    object-fit: cover;
+}
+footer {
+    background-color: #1F4E18;
+    color: #FFBD59;
+    text-align: center;
+    padding: 20px;
+}
+.btn-olive{
+    color: #1F4E18;
+    background-color: #FFBD59;
+}
+.btn-olive:hover{
+    background-color: olive;
+}
+form{
+    background-color: white;
+    margin: 0 auto;
+    width: 450px;
+    border-radius: 3px;
+}
